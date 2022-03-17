@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 16</title>
+</head>
+<body >
+    <h1>
+        Travel reservation form
+    </h1>
+    <h2>
+        * denotes mandotory
+    </h2>
+    <form method="post">
+        <label for="name">Full name*:</label><br>
+        <input type="text" name="txtname" id="name" placeholder="FirstName LastName"><br>
+        <label for="email">Email address*:</label> <br>
+        <input type="email" name="txtmail" id="email" placeholder="EMAIL_ADDRESS"><br>
+        <label for="Tour Package">Select Tour Package*:</label> <br>
+        <select name="Tour" id="Tour Package" style="background-color: aqua;">
+            <option value="Goa">Goa</option>
+            <option value="Đà ạt">Đà Lạt</option>
+            <option value="Đà Nẵng">Đà Nẵng</option>
+            <option value="Ba Vì">Ba Vì</option>
+        </select><br>
+        <label for="Date">Arrival date*:</label> <br>
+        <input type="date" name="date" id="Date"><br>
+        <label for="Number">Number of persons*:</label> <br>
+        <input name="number" id="Number" placeholder="UNKNOWN_TYPE"><br>
+        <label for="Check">What would you want to avail?*</label> <br>
+        Boarding
+        <input type="checkbox" id="Check" name="check"><br>
+        Fooding
+        <input type="checkbox" id="Check" name="check"><br>
+        Sight seeing
+        <input type="checkbox" id="Check" name="check"><br>
+        <label for="Code">Discount Coupon code:</label> <br>
+        <input name="code" id="Code" placeholder="UNKNOWN_TYPE"><br>
+        <label for="radio">Terms and conditions*</label><br>
+            <input type="radio" id="radio" name="radio">I agree<br>
+            <input type="radio" id="radio" name="radio">I disagree<br>
+        <button type="submit">Complete reservation</button>
+    </from>
+</body>
+</html>

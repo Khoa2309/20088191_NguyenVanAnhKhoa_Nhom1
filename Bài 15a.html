@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 15a</title>
+</head>
+<body>
+    <h1>
+        Contact Us
+    </h1>
+    <from method="post" >
+    <fieldset style="width: 40%;">
+    <legend>Your message:</legend>
+    <table>
+        <tr>
+            <td><label for="emailTo">To</label></td>
+            <td><input type="text" name="txtTo" id="emailTo" readonly="readonly" size="20"
+            value="Example Cafe"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Your email</label></td>
+            <td><input id="Email" type="text" Name="txt" maxlength="250" size="20"
+            tabindex="1"></td>
+        </tr>
+        <tr>
+            <td><label for="Message">Message</label></td>
+            <td><TextArea id="Message" Name="Message" Rows=10 Cols=50  tabindex="1"Wrap>
+            </Textarea></td>
+        </tr>
+    </table>  
+    </fieldset> 
+    <fieldset  style="width: 40%;" >
+         <legend>How you found us:</legend>
+         <table>
+         <tr>
+            <td><label for="browsers">How did you hear of us?</label></td>
+            <td><select name="browsers" id="browsers" style="width: 150px;">
+                <option value="Google">Google</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="Check">Newsletter</label></td>
+            <td><input type="checkbox" name="Check">Ensure this box is checked if you would like to receive email updates
+            </td>
+        </tr>
+    </table>
+     </fieldset>
+     <button type="submit">Send Message</button>
+</from>
+</body>
+</html>
