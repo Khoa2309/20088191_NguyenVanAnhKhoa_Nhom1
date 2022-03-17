@@ -1,0 +1,101 @@
+*
+{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+#color
+{
+    border: 10px solid;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    width: 500px;
+    height: 100px;
+}
+#styles
+{
+    border: 10px;
+    border-style: solid dotted groove double;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+#width
+{
+    border: solid;
+    border-width: 5px 10px 15px 20px;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+#Radius
+{
+    border: 10px solid;
+    border-radius: 0px 30px 70px 20px;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+#adv-hemisphere
+{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #cc0000;
+    border-radius: 100px 100px 0 0;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+#round-rectangle
+{
+    border: 10px solid  #F7C200;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+#adv-round-rectangle
+{
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+}#bullet
+{
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 20px 100px 100px 20px;
+    border: 10px solid green;
+}
+#adv-leaf
+{
+    background: orange;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0px 120px 0px 120px;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+#button button
+{   
+    width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 10px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+    margin-top: 10px;
+}

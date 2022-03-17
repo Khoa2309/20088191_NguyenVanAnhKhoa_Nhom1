@@ -1,0 +1,13 @@
+*
+{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+#h1
+{
+    background-image:url(hinh-anh-mat-cuoi-dep-cute-cam-xuc.jpg),url(Le_Minh_Tan_1_1.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,repeat;
+    height: 800px;
+}   

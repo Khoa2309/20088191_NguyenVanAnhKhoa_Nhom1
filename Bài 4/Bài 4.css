@@ -1,0 +1,42 @@
+*
+{
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+tr td:first-child,tr th:first-child
+{
+    text-align: left;
+}
+tr td:last-child,tr th:last-child
+{
+    text-align: right;
+}
+caption
+{
+    color: #993738;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+th
+{
+    background-color:  #993738;
+    color: white;
+}
+table
+{
+    border:1px solid #993738;
+    border-spacing: 1px;
+    background-color: #993738;
+    width: 400px;
+}
+.chan
+{
+    background-color:gray;
+}
+.le
+{
+    background-color: azure ;
+}
