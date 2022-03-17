@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 10</title>
+    <style>
+        #animated {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 0px;
+            top: 100px;
+            background: #ffcc00;
+        }
+        
+        @keyframes scroll {
+            to {
+                left: 100%;
+                transform: rotate(180deg);
+            }
+        }
+        
+        div {
+            animation-name: scroll;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+            margin-left: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="animated"></div>
+    </div>
+</body>
+
+</html>

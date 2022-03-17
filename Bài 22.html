@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 22</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .header {
+            width: 100%;
+            height: 80px;
+            background-color: dimgrey;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        
+        h1 {
+            color: white;
+            margin-top: -5px;
+        }
+        
+        .nav {
+            display: flex;
+        }
+        
+        .navigation {
+            width: 140px;
+            height: 600px;
+            background-color: grey;
+            padding: 10px;
+            font-size: 15px;
+        }
+        
+        .article {
+            position: absolute;
+            left: 170px;
+        }
+        
+        .article h2,
+        p {
+            margin-top: 25px;
+        }
+        
+        .k {
+            font-weight: bold;
+            margin-left: 110px;
+        }
+        
+        .g {
+            margin-left: 110px;
+            margin-top: 60px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Cascading Style Sheets</h1>
+    </div>
+    <div class="nav">
+        <div class="navigation">
+            <h2>Navigation</h2>
+            <a href="#">Examples index</a>
+        </div>
+        <div class="article">
+            <h2>CSS Positioning</h2>
+            <p>
+                <img src="https://mona.media/wp-content/uploads/2021/07/css.png" alt="Hình ảnh không khả dụng" width="100px" height="100px" align="left">
+                <p class="k">This article introduces topic of laying out web pages in CSS using a combination of positioning schemes.</p>
+                <p class="g">CSS allows you to use three different positioning schemes to create complex layouts:</p>
+            </p>
+            <p>
+                <ul type="circle">
+                    <li>Normal flow</li>
+                    <li>Absolute positioning</li>
+                    <li>Floating</li>
+                </ul>
+            </p>
+            <p>By using a combination of these schemes you do not need to resort to using tables to lay out your pages.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

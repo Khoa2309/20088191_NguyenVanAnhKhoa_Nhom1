@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 20</title>
+</head>
+
+<body>
+    <style>
+        a {
+            text-decoration: none;
+            color: pink;
+        }
+        
+        li {
+            list-style-type: none;
+            text-align: center;
+            width: 100px;
+            padding: 5px;
+            background: #0d90df;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.3em;
+            border: 2px dashed #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px, rgba(10, 10, 0, 0.5);
+            text-shadow: 2px 2px blue;
+            font-weight: normal;
+        }
+        
+        li>ul {
+            display: none;
+        }
+        
+        li:hover ul {
+            display: block;
+            position: absolute;
+            left: 120px;
+            margin-top: -25px;
+        }
+    </style>
+    <div class="stitched">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Products</a>
+                <ul>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Web & User Interface Design</a></li>
+                    <li><a href="">Illustration</a></li>
+                </ul>
+            </li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

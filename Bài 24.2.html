@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 24.2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            height: 70px;
+            padding: 20px;
+            background-color: dimgray;
+            color: white;
+        }
+        
+        header h1 {
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 25px;
+        }
+        
+        header p {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        header img {
+            margin-right: 20px;
+        }
+        
+        nav {
+            height: 30px;
+            background-color: bisque;
+        }
+        
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        li {
+            margin-left: 20px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        li:hover a {
+            color: black;
+        }
+        
+        section {
+            width: 100%;
+        }
+        
+        .s1 {
+            float: left;
+            margin-left: 5px;
+            width: 65%;
+            padding: 20px;
+            border-right: 1px solid dimgray;
+            height: 450px;
+        }
+        
+        .s2 {
+            float: left;
+        }
+        
+        .img1 {
+            border: 1px solid dimgray;
+            float: left;
+            padding: 5px;
+        }
+        
+        .img1 p {
+            margin-left: 0px;
+        }
+        
+        .m1 {
+            margin-left: 250px;
+            margin-top: 20px;
+            line-height: 20px;
+        }
+        
+        .img2 {
+            border: 1px solid dimgray;
+            padding: 5px;
+            margin-top: 100px;
+            width: 220px;
+        }
+        
+        .img2 p {
+            margin-left: 0px;
+        }
+        
+        .m2 {
+            margin-left: 250px;
+            margin-top: -150px;
+            line-height: 20px;
+        }
+        
+        h3 {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: red;
+        }
+        
+        .s2 h3 {
+            margin-left: 30px;
+            padding: 10px;
+            border-bottom: 1px solid dimgray;
+            color: red;
+        }
+        
+        .s2 h1 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            color: red;
+        }
+        
+        .s2 p {
+            margin-left: 20px;
+        }
+        
+        footer {
+            clear: both;
+            background-color: blanchedalmond;
+            height: 30px;
+            line-height: 30px;
+        }
+        
+        footer p {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Hình ảnh/header-removebg-preview.png" alt="Hình ảnh không hiện thị" align="left">
+        <h1>YOKO'S KITCHEN</h1>
+        <p>JAPANESE COOKING CLASSES</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">classes</a></li>
+            <li><a href="">catering</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="s1">
+            <div class="img1">
+                <img src="Hình ảnh/Bok.png" align="top">
+                <p>Bok Choi</p>
+            </div>
+            <div class="m1">
+                <h1>Japanese Vegetarian</h1>
+                <h3>Five week coursein London</h3>
+                <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.
+                </p>
+            </div>
+            <div class="img2">
+                <img src="Hình ảnh/teriyaki sauce.png" align="top">
+                <p>Teriyaki Sauce</p>
+            </div>
+            <div class="m2">
+                <h1>Sauces Masterclass</h1>
+                <h3>One day workshop</h3>
+                <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.
+                </p>
+            </div>
+        </div>
+        <div class="s2">
+            <h1>Popular Recipes</h1>
+            <h3>
+                Yakitori (grilled chicken)
+            </h3>
+
+            <h3>
+                Tsukune (minced chicken patties)
+            </h3>
+
+            <h3>
+                Okonomiyaki(savory pancakes)
+            </h3>
+
+            <h3>
+                Mizutaki(chicken stew)
+            </h3>
+
+            <h1>
+                Contact
+            </h1>
+            <p>Yoko's Kitchen</p>
+            <p>27 Redchurch Street</p>
+            <p>Shoreditch</p>
+            <p>LonDon E2 7DP</p>
+        </div>
+    </section>
+    <footer>
+        <p>2011 Yoko's Kitchen</p>
+    </footer>
+</body>
+
+</html>
